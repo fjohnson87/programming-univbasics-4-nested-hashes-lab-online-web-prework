@@ -106,8 +106,10 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
-     alans_new_info = "GUI"
-     :alans_new_info  = {:alan_kay =>"GUI"}
+     alans_new_info = {
+       :alans_new_info  = :alan_kay => {
+       :known_for => "GUI"} 
+     }
      
 end
 
